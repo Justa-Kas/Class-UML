@@ -8,8 +8,8 @@ namespace ClassUML
 {
     class Staff:Person
     {
-        public String school { get; set; }
-        public double pay { get; set; }
+        private String school { get; set; }
+        private double pay { get; set; }
 
         public Staff(String name, String address, String school, double pay):base(name, address)
         {

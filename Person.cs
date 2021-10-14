@@ -9,11 +9,11 @@ namespace ClassUML
     class Person
     {
         //properties
-        public String name { get; set; }
-        public String address { get; set; }
+        private String name { get; set; }
+        private String address { get; set; }
 
         //constructor
-        public Person(String name, String address)
+        public  Person(String name, String address)
         {
             this.name = name;
             this.address = address;
